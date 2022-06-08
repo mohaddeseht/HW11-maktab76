@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.Carousel{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 46px;
+    width: 40%;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+    width: 45%;
+    text-align: center;
+    color:white
+}
